@@ -1,0 +1,140 @@
+2023-02-06 20:01:01,718:INFO:PyCaret Supervised Module
+2023-02-06 20:01:01,718:INFO:ML Usecase: classification
+2023-02-06 20:01:01,719:INFO:version 2.2.2
+2023-02-06 20:01:01,719:INFO:Initializing setup()
+2023-02-06 20:01:01,719:INFO:setup(target=app_complete_flag, ml_usecase=classification, available_plots={'parameter': 'Hyperparameters', 'auc': 'AUC', 'confusion_matrix': 'Confusion Matrix', 'threshold': 'Threshold', 'pr': 'Precision Recall', 'error': 'Prediction Error', 'class_report': 'Class Report', 'rfe': 'Feature Selection', 'learning': 'Learning Curve', 'manifold': 'Manifold Learning', 'calibration': 'Calibration Curve', 'vc': 'Validation Curve', 'dimension': 'Dimensions', 'feature': 'Feature Importance', 'feature_all': 'Feature Importance (All)', 'boundary': 'Decision Boundary', 'lift': 'Lift Chart', 'gain': 'Gain Chart', 'tree': 'Decision Tree'}, train_size=0.7, test_data=None, preprocess=True, imputation_type=simple, iterative_imputation_iters=5, categorical_features=None, categorical_imputation=constant, categorical_iterative_imputer=lightgbm, ordinal_features=None, high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, numeric_iterative_imputer=lightgbm, date_features=None, ignore_features=None, normalize=True, normalize_method=zscore, transformation=True, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear, pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05, remove_multicollinearity=True, multicollinearity_threshold=0.95, remove_perfect_collinearity=True, create_clusters=False, cluster_iter=20, polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None, group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_selection_method=classic, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01, fix_imbalance=False, fix_imbalance_method=None, transform_target=False, transform_target_method=box-cox, data_split_shuffle=True, data_split_stratify=False, fold_strategy=stratifiedkfold, fold=10, fold_shuffle=True, fold_groups=None, n_jobs=-1, use_gpu=True, custom_pipeline=None, html=True, session_id=42, log_experiment=True, experiment_name=Lead_scoring_model_experimentation, log_plots=['auc', 'confusion_matrix', 'feature'], log_profile=False, log_data=True, silent=True, verbose=True, profile=False, profile_kwargs=None, display=None)
+2023-02-06 20:01:01,719:INFO:Checking environment
+2023-02-06 20:01:01,719:INFO:python_version: 3.9.7
+2023-02-06 20:01:01,719:INFO:python_build: ('default', 'Sep 16 2021 16:59:28')
+2023-02-06 20:01:01,719:INFO:machine: AMD64
+2023-02-06 20:01:01,719:INFO:platform: Windows-10-10.0.22000-SP0
+2023-02-06 20:01:01,720:INFO:Memory: svmem(total=8355172352, available=2174402560, percent=74.0, used=6180769792, free=2174402560)
+2023-02-06 20:01:01,720:INFO:Physical Core: 4
+2023-02-06 20:01:01,720:INFO:Logical Core: 8
+2023-02-06 20:01:01,720:INFO:Checking libraries
+2023-02-06 20:01:01,720:INFO:pd==1.3.4
+2023-02-06 20:01:01,720:INFO:numpy==1.20.3
+2023-02-06 20:01:01,720:INFO:sklearn==1.1.1
+2023-02-06 20:01:01,744:INFO:xgboost==1.7.3
+2023-02-06 20:01:01,744:INFO:lightgbm==3.3.5
+2023-02-06 20:01:01,775:INFO:catboost==1.1.1
+2023-02-06 20:01:01,775:INFO:mlflow==2.1.1
+2023-02-06 20:01:01,775:INFO:Checking Exceptions
+2023-02-06 20:01:01,775:INFO:Declaring global variables
+2023-02-06 20:01:01,775:INFO:USI: e54c
+2023-02-06 20:01:01,775:INFO:pycaret_globals: {'X', 'transform_target_param', '_available_plots', 'exp_name_log', '_all_models', 'logging_param', 'fold_param', '_all_metrics', 'fold_groups_param', '_gpu_n_jobs_param', '_all_models_internal', '_ml_usecase', 'imputation_regressor', '_internal_pipeline', 'data_before_preprocess', 'X_test', 'display_container', 'iterative_imputation_iters_param', 'imputation_classifier', 'y', 'log_plots_param', 'y_test', 'n_jobs_param', 'stratify_param', 'master_model_container', 'prep_pipe', 'y_train', 'target_param', 'transform_target_method_param', 'fold_shuffle_param', 'html_param', 'experiment__', 'seed', 'X_train', 'fold_generator', 'gpu_param', 'create_model_container', 'fix_imbalance_param', 'pycaret_globals', 'fix_imbalance_method_param', 'USI'}
+2023-02-06 20:01:01,775:INFO:Preparing display monitor
+2023-02-06 20:01:01,775:INFO:Preparing display monitor
+2023-02-06 20:01:01,785:INFO:Importing libraries
+2023-02-06 20:01:01,786:INFO:Copying data for preprocessing
+2023-02-06 20:01:01,798:INFO:Declaring preprocessing parameters
+2023-02-06 20:01:01,800:WARNING:cuML not found
+2023-02-06 20:01:01,800:WARNING:cuML is outdated or not found. Required version is >=0.15, got 1.1.1
+2023-02-06 20:01:01,822:INFO:Creating preprocessing pipeline
+2023-02-06 20:01:02,053:INFO:Preprocessing pipeline created successfully
+2023-02-06 20:01:02,054:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2023-02-06 20:01:02,054:INFO:Creating global containers
+2023-02-06 20:01:02,060:INFO:Internal pipeline: Pipeline(memory=None, steps=[('empty_step', 'passthrough')], verbose=False)
+2023-02-06 20:01:07,939:WARNING:Couldn't import cuml.linear_model.LogisticRegression
+2023-02-06 20:01:07,991:WARNING:Couldn't import cuml.neighbors.KNeighborsClassifier
+2023-02-06 20:01:07,994:WARNING:Couldn't import cuml.MBSGDClassifier
+2023-02-06 20:01:07,995:WARNING:Couldn't import cuml.svm.SVC
+2023-02-06 20:01:08,037:WARNING:Couldn't import cuml.linear_model
+2023-02-06 20:01:08,045:WARNING:Couldn't import cuml.ensemble
+2023-02-06 20:01:17,045:WARNING:Couldn't import cuml.linear_model.LogisticRegression
+2023-02-06 20:01:17,125:WARNING:Couldn't import cuml.neighbors.KNeighborsClassifier
+2023-02-06 20:01:17,126:WARNING:Couldn't import cuml.MBSGDClassifier
+2023-02-06 20:01:17,128:WARNING:Couldn't import cuml.svm.SVC
+2023-02-06 20:01:17,156:WARNING:Couldn't import cuml.linear_model
+2023-02-06 20:01:17,161:WARNING:Couldn't import cuml.ensemble
+2023-02-06 20:01:17,222:INFO:Creating grid variables
+2023-02-06 20:01:17,285:INFO:Logging experiment in MLFlow
+2023-02-06 20:02:17,497:WARNING:Couldn't create mlflow experiment. Exception:
+2023-02-06 20:02:17,522:WARNING:Traceback (most recent call last):
+  File "C:\Users\admin\anaconda3\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\admin\anaconda3\lib\site-packages\urllib3\util\connection.py", line 96, in create_connection
+    raise err
+  File "C:\Users\admin\anaconda3\lib\site-packages\urllib3\util\connection.py", line 86, in create_connection
+    sock.connect(sa)
+OSError: [WinError 10049] The requested address is not valid in its context
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\admin\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\admin\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\admin\anaconda3\lib\site-packages\urllib3\connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "C:\Users\admin\anaconda3\lib\http\client.py", line 1279, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\admin\anaconda3\lib\http\client.py", line 1325, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\admin\anaconda3\lib\http\client.py", line 1274, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\admin\anaconda3\lib\http\client.py", line 1034, in _send_output
+    self.send(msg)
+  File "C:\Users\admin\anaconda3\lib\http\client.py", line 974, in send
+    self.connect()
+  File "C:\Users\admin\anaconda3\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "C:\Users\admin\anaconda3\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000002B79FB6F580>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\admin\anaconda3\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\admin\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  File "C:\Users\admin\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  File "C:\Users\admin\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  [Previous line repeated 2 more times]
+  File "C:\Users\admin\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "C:\Users\admin\anaconda3\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='0.0.0.0', port=6007): Max retries exceeded with url: /api/2.0/mlflow/experiments/create (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B79FB6F580>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\admin\anaconda3\lib\site-packages\mlflow\utils\rest_utils.py", line 167, in http_request
+    return _get_http_response_with_retries(
+  File "C:\Users\admin\anaconda3\lib\site-packages\mlflow\utils\rest_utils.py", line 98, in _get_http_response_with_retries
+    return session.request(method, url, **kwargs)
+  File "C:\Users\admin\anaconda3\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\admin\anaconda3\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\admin\anaconda3\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='0.0.0.0', port=6007): Max retries exceeded with url: /api/2.0/mlflow/experiments/create (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B79FB6F580>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\admin\anaconda3\lib\site-packages\pycaret\internal\tabular.py", line 1672, in setup
+    mlflow.create_experiment(exp_name_log)
+  File "C:\Users\admin\anaconda3\lib\site-packages\mlflow\tracking\fluent.py", line 1214, in create_experiment
+    return MlflowClient().create_experiment(name, artifact_location, tags)
+  File "C:\Users\admin\anaconda3\lib\site-packages\mlflow\tracking\client.py", line 501, in create_experiment
+    return self._tracking_client.create_experiment(name, artifact_location, tags)
+  File "C:\Users\admin\anaconda3\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 234, in create_experiment
+    return self.store.create_experiment(
+  File "C:\Users\admin\anaconda3\lib\site-packages\mlflow\store\tracking\rest_store.py", line 95, in create_experiment
+    response_proto = self._call_endpoint(CreateExperiment, req_body)
+  File "C:\Users\admin\anaconda3\lib\site-packages\mlflow\store\tracking\rest_store.py", line 56, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\admin\anaconda3\lib\site-packages\mlflow\utils\rest_utils.py", line 278, in call_endpoint
+    response = http_request(
+  File "C:\Users\admin\anaconda3\lib\site-packages\mlflow\utils\rest_utils.py", line 185, in http_request
+    raise MlflowException(f"API request to {url} failed with exception {e}")
+mlflow.exceptions.MlflowException: API request to http://0.0.0.0:6007/api/2.0/mlflow/experiments/create failed with exception HTTPConnectionPool(host='0.0.0.0', port=6007): Max retries exceeded with url: /api/2.0/mlflow/experiments/create (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B79FB6F580>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context'))
+
